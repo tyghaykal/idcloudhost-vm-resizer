@@ -19,6 +19,9 @@ composer install
 After that, assign value to .env. If you dont want to use telegram as
 notification channel, just let it null.
 
+You should change xxx value on BASE_URL to your VM server location, for example
+Singapore location will be sgp01.
+
 ```env
 PROCESSOR_MAX = 2
 PROCESSOR_MIN = 1
@@ -26,7 +29,7 @@ RAM_MAX = 2048
 RAM_MIN = 1024
 TOKEN = YOUR_TOKEN
 VM_ID = YOUR_VM_ID
-BASE_URL = "https://api.idcloudhost.com/v1/sgp01/"
+BASE_URL = "https://api.idcloudhost.com/v1/xxx/"
 TELEGRAM_TOKEN =
 CHAT_ID =
 ```
