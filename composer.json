@@ -1,0 +1,27 @@
+{
+    "name": "haykal/idcloudhost-console-vm-resizer",
+    "type": "project",
+    "description": "IDCloudhost Console VM Resizer",
+    "keywords": [
+        "idcloudhost",
+        "vm",
+        "resizer",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Andre Haykal Rachman",
+            "email": "andrecsd9@gmail.com",
+            "homepage": "https://github.com/tyghaykal",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "andrecsd9@gmail.com"
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "php-curl-class/php-curl-class": "^9.13",
+        "symfony/var-dumper": "^5.4"
+    }
+}
